@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto:wght@300&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+   background-color:rgb(218, 215, 215) ;
+    position: absolute;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+
+    padding: 4px;
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    padding: 21px;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.main{
+   /* background-color: yellowgreen;*/
+    width: 90vw;
+    padding: 18px;
+}
+
+.container{
+    display: flex;
+    background-color: floralwhite;
+}
+
+.infoContainer{
+
+  /* background-color: rgb(199, 199, 57);*/
+    height: 56vh;
+    width: 84vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo{
+    font-size: 12px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.hello{
+    font-size: 2em;
+}
+.name{
+font-size: 3.5em;
+font-weight: bold;
+font-family: 'Roboto', sans-serif;
+color: brown;
+}
+.about{
+font-size: 2.5em;
+}
+
+
+.MoreAbout{
+    font-size: 2em;
+    margin: 5px;
+}
+
+.buttons{
+
+    margin-top: 2em ;
+    font-size: 5px;
+}
+
+.btn{
+
+    padding: 2px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 1.2em;
+   /* font-weight: bold; */
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.btn:hover{
+
+    color: lightskyblue;
+   background-color: white;
+
+}
+
+.devPic img{
+
+    width: 26vw;
+    height: 56vh;
+}
+
+
+.contactForm{
+
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 30px;
+    margin: 0 80px;
+
+
+}
+.contactForm h1{
+
+    font-family: 'Source Sans Pro', sans-serif;
+   /* padding: 8px 0; */
+   color: brown;
+    
+}
+
+.contactForm  form div {
+
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+
+
+   /* width: 20vw; */
+    border-radius: 4px;
+    margin: 3px 0px;
+    padding: 2px;
+}
+
+    .contactForm form {
+
+margin: 0 30px;
+        
+     
+
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: -10px 0px;
+
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blogContainer{
+    margin: 0 80px;
+}
+
+
+ h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    color: brown;
+}
+p {
+ font-family:'Source Sans Pro', sans-serif;
+}
+
+.Intro{
+
+    margin: 0 80px;
+}
+
+
+.Intro h2{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    
+}
+
+.Intro p{
+     font-family:'Source Sans Pro', sans-serif;
+     margin: 10px;
+}
+
+.skillContainer{
+
+    padding: 10px;
+}
+
+.skillItem{
+
+display: flex;
+align-items: center;
+font-family:'Source Sans Pro', sans-serif;
+font-weight: 600;
+
+}
+
+.skill{
+    width: 220px;
+    height: 6px;
+    background-color: #e2aaaa;
+    border: 2px solid black;
+
+}
+
+.hundred{
+    width: 220px;
+    background-color: green;
+}
+.fifty{
+ width: 120px;
+ background-color: white;
+}
+.t5{
+    width: 60px;
+    background-color: orange;
+}
+
+.sidebarGo{
+
+    transform: translate(-310px, 0px);
+    position: absolute;
+}
+
+
+
+
+
+.hamBurger{
+
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 6px;
+    margin-left: 6px;
+
+}
+.cross{
+    margin-left: 70px;
+    margin-top: 6px;
+}
+
+@media  (max-width: 500px) {
+        *{
+           /* background-color: rgb(248, 164, 164);*/
+        }
+
+/* .sidebar{
+
+    transform: translate(-310px, 0px);
+    position: absolute;
+} */
+
+.devInfo{
+
+    font-size: 10px;
+}
+
+
+.devPic{
+
+    display: none;
+}
+
+.buttons{
+
+    font-size: 6px;
+}
+
+.Intro, .blogContainer, .contactForm{
+
+    margin: 40px 6px;
+}
+}
+
+.Intro ul{
+    margin-left: 25px;
+}
+
+.Intro ul li{
+
+    list-style: none;
+}
+.blogItem p{
+
+    font-size: 20px;
+}
+.blogContainer h1{
+    color: brown;
+    font-weight: bold;
+}
+.services p{
+    margin: 2px;
+    padding: 2px;
+    margin-left: 22px;
+}
+.services ul {
+    margin: 20px;
+    padding: 2px;
+}
+.services h1{
+    margin-left: 50px;
+}

@@ -194,6 +194,9 @@ p {
      font-family:'Source Sans Pro', sans-serif;
      margin: 10px;
 }
+.Intro ul{
+    color: brown;
+}
 
 .skillContainer{
 
@@ -223,11 +226,11 @@ font-weight: 600;
 }
 .fifty{
  width: 120px;
- background-color: white;
+ background-color: powderblue;
 }
 .t5{
     width: 60px;
-    background-color: midnightblue;
+    background-color: lightslategray;
 }
 
 .sidebarGo{
@@ -315,7 +318,14 @@ font-weight: 600;
 .services ul {
     margin: 20px;
     padding: 2px;
+    color: brown;
 }
 .services h1{
     margin-left: 50px;
+}
+.blogItem ul{
+    color: lightseagreen;
+}
+.blogItem h2{
+    color: lightseagreen;
 }

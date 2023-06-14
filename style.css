@@ -88,12 +88,12 @@ font-size: 2.5em;
 
 .btn{
 
-    padding: 2px;
+    padding: 1px;
     background-color: lightskyblue;
     color: white;
-    font-size: 2em;
+    font-size: 1em;
    /* font-weight: bold; */
-    margin: 0px 2px;
+    margin: 0px 1px;
     cursor: pointer;
     border-radius: 10px;
 
@@ -139,9 +139,10 @@ font-size: 2.5em;
 
 
    /* width: 20vw; */
-    border-radius: 4px;
-    margin: 3px 0px;
-    padding: 2px;
+   border-radius: 12px;
+   margin: 1px 0px;
+   padding: 5px;
+   width:400px;
 }
 
     .contactForm form {
